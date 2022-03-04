@@ -133,6 +133,7 @@ header{
 
 #conocenos-titulo h4{
 	font-family: Viga-Regular;
+	font-size: 1.8rem;
 	color: #C0638D;
 }
 
@@ -155,8 +156,81 @@ header{
 	width: 80px;
 	object-fit: cover;
 }
-
 /*1er bloque*/
+
+#titulo-divisor h1{
+	font-family: Viga-Regular;
+	font-size: 2.2rem;
+	color: #C0638D;
+}
+
+/*nuestro equipo*/
+
+.card{
+	background: #FEE2A2;
+}
+
+.card-body h5{
+	font-family: Viga-Regular;
+	font-size: 1.2rem;
+	color: #435D74;
+}
+
+.card-body p{
+	text-align: justify;
+	font-family: work-sans-regular;
+}
+
+/*nuestro equipo*/
+
+/*testimonio*/
+#testimonio h5{
+	width: 80%;
+	font-family: work-sans-medium-italic;
+}
+
+#testimonio img{
+	height: 100px;
+	width: 100px;
+	object-fit: cover;
+	background-position: center;
+	border-radius: 50%;
+	margin: 10px 0;
+}
+
+#testimonio h6{
+	width: 60%;
+	font-family: work-sans-regular;
+	font-size: 1.2rem;
+}
+/*testimonio*/
+
+/*2do bloque*/
+#icon-subseccion{
+	width: 100px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+#icon-subseccion img{
+	width: 100%;
+	object-fit: cover;
+}
+
+#subseccion-info h4{
+	font-family: Viga-Regular;
+	font-size: 1.5rem;
+	color: #C0638D;
+}
+#subseccion-info p{
+	font-family: work-sans-regular;
+	text-align: justify;
+}
+
+/*2do bloque*/
 
 /*Contenido*/
 

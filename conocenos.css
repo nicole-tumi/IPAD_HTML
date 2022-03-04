@@ -313,10 +313,66 @@ footer{
 /*mediaquery*/
 
 /*banner*/
+@media screen and (max-width: 1199px){
+	#conocenos-img{
+		display: flex;
+		align-items: center;
+	}
+	#conocenos-img img{
+		width: 100%;
+		height: 100%;
+
+	}
+	#info-conocenos{
+		padding: 0;
+	}
+}
+@media screen and (max-width: 900px){
+	#banner-conocenos{
+		height: 150px;
+	}
+	#texto-banner h1{
+		font-size: 2.5rem;
+	}
+	#texto-banner h4{
+		font-size: 1.5rem;
+	}
+	#conocenos-seccion{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	#info-conocenos{
+		width: 90%;
+		margin: 0;
+	}
+	#conocenos-img{
+		width: 95%;
+		height: 250px;
+	}
+	#titulo-row{
+		padding-top: 1rem!important;
+	}
+	#titulo-divisor h1{
+		font-size: 1.8rem;
+	}
+	#subseccion-info h4{
+		font-size: 1.2rem;
+		text-align: center;
+	}
+	#subseccion-info{
+		width: 90%;
+	}
+}
 
 @media screen and (max-width: 810px){
 	.list-inline{
 		width: 80%;
+	}
+	#cuarta-subseccion{
+		padding-top: 0px!important;
 	}
 }
 @media screen and (max-width: 615px){
@@ -324,8 +380,6 @@ footer{
 	.navbar-brand{
 		font-size: 1rem;
 	}
-
-
 	.list-inline{
 		width: 100%;
 		display: flex;
@@ -335,10 +389,68 @@ footer{
 	.list-inline-item{
 		width: 350px;
 	}
+	#texto-banner h1{
+		font-size: 2rem;
+	}
+	#texto-banner h4{
+		font-size: 1.3rem;
+	}
+	#subseccion-info{
+		width: 90%;
+	}
+	#testimonio h5{
+		font-size: 1rem;
+	}
+	#testimonio h6{
+		font-size: 0.9rem;
+	}
+
 }
+@media screen and (max-width: 580px){
+	#encabezado-conocenos{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#conocenos-titulo h4{
+		font-size: 1.5rem;
+	}
+}
+
 @media screen and (max-width: 415px){
 	.navbar-brand{
 		font-size: 0;
+	}
+
+	#banner-conocenos{
+		height: 100px;
+	}
+	#texto-banner h1{
+		font-size: 1.5rem;
+	}
+	#texto-banner h4{
+		font-size: 1rem;
+	}
+	#conocenos-titulo h4{
+		font-size: 1rem;
+	}
+	#conocenos-titulo h6{
+		font-size: 0.8rem;
+	}
+	#titulo-divisor h1{
+		font-size: 1.5rem;
+	}
+	#cuarta-subseccion{
+		padding-right: 1rem!important;
+		padding-left: 1rem!important;
+	}
+}
+
+@media screen and (max-width: 380px){
+	#conocenos-icon img{
+		max-width: 80px;
+		width: 100%;
+		height: fit-content;
+		background-size: contain;
 	}
 }
 

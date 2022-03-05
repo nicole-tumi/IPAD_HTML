@@ -27,6 +27,7 @@
 
 header{
 	width: 100%;
+	height: fit-content;
 	background:linear-gradient(180deg, #435D74 0%, #36A8CD 100%);
 }
 .navbar{
@@ -85,6 +86,7 @@ header{
 /*Contenido*/
 /*Banner*/
 #banner{
+	margin-top: 76px;
 	background: #DCDFE1;
 }
 #banner-conocenos{

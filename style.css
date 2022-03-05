@@ -27,6 +27,7 @@
 
 header{
 	width: 100%;
+	height: fit-content;
 	background:linear-gradient(180deg, #435D74 0%, #36A8CD 100%);
 }
 .navbar{
@@ -85,6 +86,7 @@ header{
 #banner{
 	height: 390px;
 	width: 100%;
+	margin-top: 76px;
 	background: url(img/index/banner-1.png);
 	background-size: cover;
 	background-position: 10% 20%;
@@ -386,6 +388,7 @@ footer{
 @media screen and (max-width: 615px){
 	#banner{
 		height: 180px;
+		margin-top: 60px;
 	}
 	#banner-texto{
 		margin-left: 5%;
@@ -404,6 +407,7 @@ footer{
 	.navbar-brand{
 		font-size: 1rem;
 	}
+
 
 	#titulo-primer-bloque h1{
 		font-size: 1.5rem;

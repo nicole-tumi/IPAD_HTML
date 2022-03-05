@@ -1,0 +1,119 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M361.381 608l-105.381-89.6v-262.334c0-17.867 14.326-32.066 31.999-32.066h480.003c17.448 0 31.999 14.357 31.999 32.066v262.334l-106.659 89.6h-331.96zM399.017 640l57.054 48.51h141.432l57.746-48.51h-256.231zM709.925 644.064l-69.925 59.936 189.538 162.462-25.846 25.846-191.866-164.457-167.149 0.729-0.677-0.58-191.692 164.308-25.846-25.846 189.538-162.462-69.925-59.936-122.075-103.263v-177.281l-96 84.48v448.19c0 35.241 28.472 63.81 64.115 63.81h671.77c35.41 0 64.115-28.624 64.115-63.81v-448.19l-96-84.48v177.281l-122.075 103.263zM637.091 192l-109.091-96-109.091 96h218.182zM320 320v32h416v-32h-416zM320 416v32h416v-32h-416zM320 512v32h416v-32h-416z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "mail-envelope-open"
+        ],
+        "grid": 32
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "prevSize": 32,
+        "name": "mail-envelope-open"
+      },
+      "setIdx": 0,
+      "setId": 6,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+        ],
+        "tags": [
+          "phone",
+          "telephone",
+          "contact",
+          "support",
+          "call"
+        ],
+        "defaultCode": 59714,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "phone, telephone",
+        "name": "phone",
+        "order": 34,
+        "id": 67,
+        "prevSize": 32
+      },
+      "setIdx": 5,
+      "setId": 1,
+      "iconIdx": 66
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 192l320-128v768l-320 128z",
+          "M384 32l320 192v736l-320-160z",
+          "M768 224l256-192v768l-256 192z"
+        ],
+        "tags": [
+          "map",
+          "guide"
+        ],
+        "defaultCode": 59723,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "map, guide",
+        "name": "map",
+        "order": 33,
+        "id": 76,
+        "prevSize": 32
+      },
+      "setIdx": 5,
+      "setId": 1,
+      "iconIdx": 75
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

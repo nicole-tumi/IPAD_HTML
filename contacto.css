@@ -283,7 +283,10 @@ footer{
 	}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
+	.col-md-6{
+		width: 100%;
+	}
 	#contenido-datos{
 		display: flex;
 		flex-direction: column-reverse;
@@ -324,6 +327,18 @@ footer{
 		font-size: 1.3rem;
 	}
 }
+
+@media screen and (max-width: 576px){
+	#bloque-datos{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 455px){
+	#titulo-seccion h1{
+		font-size: 1.5rem;
+	}
+}
+
 @media screen and (max-width: 415px){
 	.navbar-brand{
 		font-size: 0;
@@ -336,6 +351,10 @@ footer{
 	}
 	#texto-banner h4{
 		font-size: 1rem;
+	}
+	.px-5{
+		padding-right: 0rem!important;
+		padding-left: 0rem!important;
 	}
 }
 
